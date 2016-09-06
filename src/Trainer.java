@@ -15,6 +15,7 @@ public class Trainer {
 	ArrayList<int[]> booleanizedFile = new ArrayList<int[]>();
 	ArrayList<Integer> chosen = new ArrayList<Integer>();
 	PreProcessTask task;
+	double theta;
 	
 	public Trainer(PreProcessTask task){
 		this.booleanizedFile = task.booleanizedFile;
@@ -41,7 +42,6 @@ public class Trainer {
 	
 	public void test(){
 		for(int i = 0; i < testData.size(); i++){
-			double theta = testData.get(i).length;
 			for(int j = 0; j < classifiers.size(); j++){
 				int fcorrect = testData.get(i)[testData.get(i).length-1];
 				int factual = (int)(dot(classifiers.get(j), testData.get(i)));
@@ -51,16 +51,15 @@ public class Trainer {
 					System.out.println("Class Number: " + classNumbers.get(j));
 					System.out.println("Correct Class Number from Data: " + fcorrect);
 					System.out.println("Correct Class from Data: " + task.classes.get(fcorrect));
-					System.out.println(h);
-					if(dataSetName == "BreastCancer" || dataSetName == "VoteCount"){
+					if(dataSetName == "BreastCancer"){
 						if(h == classNumbers.get(j)){
 							System.out.println("The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)));
 							System.out.println();
 							break;
 						}
-					}else if(dataSetName == "Iris" || dataSetName == "SoyBean" || dataSetName == "GlassID"){
+					}else if(dataSetName == "Iris" || dataSetName == "SoyBean" || dataSetName == "GlassID"|| dataSetName == "VoteCount"){
 						if(h == 1){
-							System.out.println("The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)));
+							System.out.println("h(x) = " + h + " (true) for this class.\n"+"The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)) );
 							System.out.println();
 							break;
 						}
@@ -72,29 +71,60 @@ public class Trainer {
 	}
 	
 	public void winnow2(ArrayList<int[]> dataSet, int classNum){
-		double theta;
 		double alpha;
+		int numIterations = 50;
 		if(dataSetName == "VoteCount"){
-			theta = dataSet.get(0).length/2;
+			if(classNum == 0){
+				numIterations = 1000;
+			}else{
+				numIterations = 1000;
+			}
+			theta = 120;
+			alpha = 2;
+		}else if(dataSetName =="Iris"){
+			if(classNum == 3){
+				numIterations = 1000;
+			}else{
+				numIterations = 1000;
+			}
+			theta = 151;
+			alpha = 2;
+			
+		}else if(dataSetName =="GlassID"){
+			if(classNum == 1 || classNum == 2){
+				numIterations = 3000;
+			}
+			numIterations = 3000;
+			theta = 134;
+			alpha = 2;
+			
+		}else if(dataSetName =="SoyBean"){
+			
+			numIterations = 1000;
+			theta = 246;
 			alpha = 2;
 			
 		}else{
-			theta = dataSet.get(0).length;
-			alpha = 2.5;
+			theta = 3;
+			alpha = 2;
+			numIterations = 1000;
 		}
 		alpha = 2.5;
 		dataSet.trimToSize();
 		double[] weights = new double[dataSet.get(0).length-1];
 		Arrays.fill(weights, 1.0);
-		
-		for(int i = 0; i < dataSet.size(); i++){
-			int f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
-			int f_actual = (int)(dot(weights, dataSet.get(i)));
-			int h = (f_actual > theta) ? 1 : 0;
-			if(h == 1 && f_correct == 0){
-				weights = demotion(weights, dataSet.get(i), alpha);
-			}else if(h == 0 && f_correct == 1){
-				weights = promotion(weights, dataSet.get(i), alpha);
+		int sum = 0;
+		for(int j = 0; j < numIterations; j++){
+			for(int i = 0; i < dataSet.size(); i++){
+				int f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
+				int f_actual = (int)(dot(weights, dataSet.get(i)));
+				//System.out.println(f_actual);
+				int h = (f_actual > theta) ? 1 : 0;
+				if(h == 1 && f_correct == 0){
+					weights = demotion(weights, dataSet.get(i), alpha);
+				}else if(h == 0 && f_correct == 1){
+					weights = promotion(weights, dataSet.get(i), alpha);
+				}
 			}
 		}
 		classNumbers.add(classNum);

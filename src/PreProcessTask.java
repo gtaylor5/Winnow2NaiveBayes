@@ -114,94 +114,112 @@ public class PreProcessTask {
 	}
 
 	public void processGlassID(){ //Glass has no missing values. No need to imputate.
-		double[] means = {1.5184, 13.407, 2.6845, 1.4449, 72.6509, .4971, .9570, .1750, .0570};
 		for(int i = 0; i < lines.size(); i++){
-			int[] booleanizedArray = new int[755]; //There are 152 buckets each bucket holds a range of .5. So, 1.5 would go into index 2.
+			ArrayList<Integer> encodedData = new ArrayList<Integer>();
 			for(int j = 1; j < lines.get(i).length-1; j++){
-				double val = Double.parseDouble(lines.get(i)[j]);
-				booleanizedArray[((int)(val/.1))] = 1;
+				int[] bArray;
+				if(j == 1){
+					bArray = new int[4];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1.5)*100));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if(j == 2){
+					bArray = new int[15];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-10)/.5));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if(j == 3){
+					bArray = new int[9];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.5));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 4){
+					bArray = new int[15];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.25)));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 5){
+					bArray = new int[15];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-69)/.5));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 6){
+					bArray = new int[13];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.5));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 7){
+					bArray = new int[23];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-5)/.5));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 8){
+					bArray = new int[22];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.15));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 9){
+					bArray = new int[18];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.03));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}
 			}
-			booleanizedArray[booleanizedArray.length-1] = Integer.parseInt(lines.get(i)[lines.get(i).length-1]);
-			booleanizedFile.add(booleanizedArray);
+			encodedData.add(Integer.parseInt(lines.get(i)[lines.get(i).length-1]));
+			encodedData.trimToSize();
+			Integer[] encodedDataAsArray = new Integer[encodedData.size()];
+			int[] encodedDataAsArray1 = new int[encodedData.size()];
+			encodedDataAsArray = encodedData.toArray(encodedDataAsArray);
+			for(int j = 0; j < encodedDataAsArray.length; j++){
+				encodedDataAsArray1[j] = encodedDataAsArray[j].intValue();
+			}
+			booleanizedFile.add(encodedDataAsArray1);
 		}
 	}
 	
 	public void processIris(){
-		double[] slStats = {4.3, 7.9, 5.84, .83};
-		double[] swStats = {2.0,4.4,3.02,.43};
-		double[] plStats = {1.0, 6.9,3.76, 1.76};
-		double[] pwStats = {.1, 2.5, 1.20, .76};
+			
 		for(int i = 0; i < lines.size(); i++){
-			int[] booleanizedArray = new int[5];
+			ArrayList<Integer> encodedData = new ArrayList<Integer>();
 			for(int j = 0; j < lines.get(i).length-1; j++){
-				double val;
-				switch(j){
-				case 0:
-					val = Double.parseDouble(lines.get(i)[j]);
-					if(val >= slStats[2]+slStats[3]) {
-						booleanizedArray[j] = 1;
-					}else if(val <= slStats[2]-slStats[3]){
-						booleanizedArray[j] = 0;
-					}else{
-						if(val >= slStats[2]){
-							booleanizedArray[j] = 1;
-						}else{
-							booleanizedArray[j] = 0;
-						}
-					}
-					break;
-				case 1:
-					val = Double.parseDouble(lines.get(i)[j]);
-					if(val >= swStats[2]+swStats[3]) {
-						booleanizedArray[j] = 1;
-					}else if(val <= swStats[2]-swStats[3]){
-						booleanizedArray[j] = 0;
-					}else{
-						if(val >= swStats[2]){
-							booleanizedArray[j] = 1;
-						}else{
-							booleanizedArray[j] = 0;
-						}
-					}
-					break;
-				case 2:
-					val = Double.parseDouble(lines.get(i)[j]);
-					if(val >= plStats[2]+plStats[3]) {
-						booleanizedArray[j] = 1;
-					}else if(val <= plStats[2]-plStats[3]){
-						booleanizedArray[j] = 0;
-					}else{
-						if(val >= plStats[2]){
-							booleanizedArray[j] = 1;
-						}else{
-							booleanizedArray[j] = 0;
-						}
-					}
-					break;
-				case 3:
-					val = Double.parseDouble(lines.get(i)[j]);
-					if(val >= pwStats[2]+pwStats[3]) {
-						booleanizedArray[j] = 1;
-					}else if(val <= pwStats[2]-pwStats[3]){
-						booleanizedArray[j] = 0;
-					}else{
-						if(val >= pwStats[2]){
-							booleanizedArray[j] = 1;
-						}else{
-							booleanizedArray[j] = 0;
-						}
-					}
-					break;
+				int[] bArray;
+				if(j == 0){
+					bArray = new int[40];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-4)/.1));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if(j == 1){
+					bArray = new int[25];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-2)/.1));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if(j == 2){
+					bArray = new int[60];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1)/.1));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
+				}else if (j == 3){
+					bArray = new int[26];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.1)));
+					bArray[index] = 1;
+					encodedData = fillArray(bArray, encodedData);
 				}
 			}
 			if(lines.get(i)[lines.get(i).length-1].equalsIgnoreCase("Iris-setosa")){
-				booleanizedArray[booleanizedArray.length-1] = 1;
+				encodedData.add(1);
 			}else if(lines.get(i)[lines.get(i).length-1].equalsIgnoreCase("Iris-versicolor")){
-				booleanizedArray[booleanizedArray.length-1] = 2;
+				encodedData.add(2);
 			}else{
-				booleanizedArray[booleanizedArray.length-1] = 3;
+				encodedData.add(3);
 			}
-			booleanizedFile.add(booleanizedArray);
+			encodedData.trimToSize();
+			Integer[] encodedDataAsArray = new Integer[encodedData.size()];
+			int[] encodedDataAsArray1 = new int[encodedData.size()];
+			encodedDataAsArray = encodedData.toArray(encodedDataAsArray);
+			for(int j = 0; j < encodedDataAsArray.length; j++){
+				encodedDataAsArray1[j] = encodedDataAsArray[j].intValue();
+			}
+			booleanizedFile.add(encodedDataAsArray1);
 		}
 	}
 	
@@ -260,4 +278,12 @@ public class PreProcessTask {
 		}
 		return 0;
 	}
+	
+	public ArrayList<Integer> fillArray(int[] array, ArrayList<Integer> list){
+		for(int i = 0; i < array.length; i++){
+			list.add(array[i]);
+		}
+		return list;
+	}
+	
 }

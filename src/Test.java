@@ -14,18 +14,17 @@ public class Test {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		processData();
-		for(int i = 2; i < 3; i++){
-			Trainer myTrainer = new Trainer(tasks.get(i));
+		
+			Trainer myTrainer = new Trainer(tasks.get(0));
 			try {
 				myTrainer.splitData();
-				for(int key : tasks.get(i).classes.keySet()){
+				for(int key : tasks.get(0).classes.keySet()){
 					myTrainer.winnow2(myTrainer.trainingData, key);
 				}
-				myTrainer.test();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-		}
+			myTrainer.test();
 	}
 	
 	public static void processData() throws FileNotFoundException{
