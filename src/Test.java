@@ -1,6 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 
 public class Test {
 	
@@ -9,20 +10,21 @@ public class Test {
 			"breast-cancer-wisconsinunprocessed.txt","house-votes-84unprocessed.txt"};
 	static String[] processedFiles = {"soybeanprocessed.txt","irisprocessed.txt", "glassprocessed.txt", 
 			"breastcancerprocessed.txt","house-votes-84processed.txt"};
+	static ArrayList<PreProcessTask> tasks = new ArrayList<PreProcessTask>();
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		
 		processData();
-		Trainer myTrainer = new Trainer("glassprocessed.txt",6,"GlassID");
-		try {
-			myTrainer.splitData();
-			myTrainer.winnow2(myTrainer.trainingData, 1);
-			//for(int i = 0; i < myTrainer.classifiers.get(0).length; i++){
-				//System.out.print(myTrainer.classifiers.get(0)[i] + " ");
-			//}
-			System.out.println();
-		} catch (IOException e) {
-			e.printStackTrace();
+		for(int i = 2; i < 3; i++){
+			Trainer myTrainer = new Trainer(tasks.get(i));
+			try {
+				myTrainer.splitData();
+				for(int key : tasks.get(i).classes.keySet()){
+					myTrainer.winnow2(myTrainer.trainingData, key);
+				}
+				myTrainer.test();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 	
@@ -39,6 +41,7 @@ public class Test {
 					}
 					writer.println();
 				}
+				tasks.add(task);
 			}catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -47,5 +50,4 @@ public class Test {
 			}
 		}
 	}
-	
 }

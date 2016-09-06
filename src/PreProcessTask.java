@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class PreProcessTask {
@@ -7,7 +8,8 @@ public class PreProcessTask {
 	ArrayList<String[]> lines = new ArrayList<String[]>();
 	ArrayList<String[]> linesCopy = new ArrayList<String[]>();
 	ArrayList<int[]> booleanizedFile = new ArrayList<int[]>();
-	private String dataSetName = "";
+	String dataSetName = "";
+	HashMap<Integer, String> classes = new HashMap<Integer, String>();
 	int numClasses = 0;
 	
 	public PreProcessTask(String name){
@@ -18,6 +20,7 @@ public class PreProcessTask {
 		File file = new File(fileLocation);
 		file.setReadable(true);
 		Scanner input = new Scanner(file);
+		
 		while(input.hasNextLine()){
 			String line = input.nextLine();
 			String[] lineAsArray = line.split(",");
@@ -30,18 +33,35 @@ public class PreProcessTask {
 		if(dataSetName == "VoteCount"){
 			processVoteCount();
 			numClasses = 2;
+			classes.put(0, "Republican");
+			classes.put(1, "Democrat");
 		}else if(dataSetName.equalsIgnoreCase("BreastCancer")){
 			processBreastCancer();
 			numClasses = 2;
+			classes.put(0, "Benign");
+			classes.put(1, "Malignant");
 		}else if(dataSetName.equalsIgnoreCase("GlassID")){
 			processGlassID();
 			numClasses = 6;
+			classes.put(1, "Building Windows Float Processed");
+			classes.put(2, "Building Windows Non-Float Processed");
+			classes.put(3, "Vehicle Windows Float Processed");
+			classes.put(5, "Containers");
+			classes.put(6, "Tableware");
+			classes.put(7, "Headlamps");
 		}else if(dataSetName.equalsIgnoreCase("Iris")){
 			processIris();
 			numClasses = 3;
+			classes.put(1, "Iris-setosa");
+			classes.put(2, "Iris-versicolor");
+			classes.put(3, "Iris-virginica");
 		}else{
 			processSoyBean();
 			numClasses = 4;
+			classes.put(1, "Diaporthe Stem Canker");
+			classes.put(2, "Charcoal Rot");
+			classes.put(3, "Rhizoctonia Root Rot");
+			classes.put(4, "Phytophthora Rot");
 		}
 	}
 	
@@ -59,7 +79,7 @@ public class PreProcessTask {
 							continue;
 						}
 					}
-					if(Integer.parseInt(lines.get(i)[j]) < 5){
+					if(Integer.parseInt(lines.get(i)[j]) < 4){
 						booleanizedArray[j-1] = 0; //Bucket of values less than 5 is a zero based on cursory glance of data
 						continue;
 					}
@@ -68,46 +88,38 @@ public class PreProcessTask {
 					booleanizedArray[j-1] = imputateData(i,j);
 				}
 			}
-			System.out.println();
 			booleanizedFile.add(booleanizedArray);
 		}
 	}
 	
 	public void processVoteCount(){
-		
 		for(int i = 0; i < lines.size(); i++){
 			int[] booleanizedArray = new int[lines.get(i).length];
-			for(int j = 0; j < lines.get(i).length; j++){
-				if(j == 0){
-					if(lines.get(i)[j].equalsIgnoreCase("republican")) {
-						booleanizedArray[j] = 0; //republican
-						continue;
-					}else{
-						booleanizedArray[j] = 1; //democrat
-					}
-				}else {
+			for(int j = 1; j < lines.get(i).length; j++){
 					if(lines.get(i)[j].equalsIgnoreCase("n")){
-						booleanizedArray[j]= 0; // no = 0
+						booleanizedArray[j-1]= 0; // no = 0
 					}else if(lines.get(i)[j].equalsIgnoreCase("y")){
-						booleanizedArray[j] = 1; // yes = 1
-					}else{ //if "?"
-						booleanizedArray[j] = imputateData(i, j);
-					}
+						booleanizedArray[j-1] = 1; // yes = 1
+					}else if(lines.get(i)[j].equals("?")){ //if "?"
+						booleanizedArray[j-1] = imputateData(i, j);
 				}
+			}
+			if(lines.get(i)[0].equalsIgnoreCase("republican")){
+				booleanizedArray[booleanizedArray.length-1] = 0;
+			}else{
+				booleanizedArray[booleanizedArray.length-1] = 1;
 			}
 			booleanizedFile.add(booleanizedArray);
 		}
 	}
+
 	public void processGlassID(){ //Glass has no missing values. No need to imputate.
-		
+		double[] means = {1.5184, 13.407, 2.6845, 1.4449, 72.6509, .4971, .9570, .1750, .0570};
 		for(int i = 0; i < lines.size(); i++){
-			int[] booleanizedArray = new int[(10*8)+1]; //There are 10 buckets that hold integers from 0-99. Ignoring RI values. Last index is class value
-			for(int j = 2; j < lines.get(i).length-1; j++){
-				for(int k = (j-2)*10; k < ((j+1)-2)*10; k++){
-					if((int)(Math.floor(Double.parseDouble(lines.get(i)[j]))%10) == (k-(j-2)*10)){ //use modulus encoding of attributes to make sequences more differentiable
-						booleanizedArray[k] = 1;
-					}
-				}
+			int[] booleanizedArray = new int[755]; //There are 152 buckets each bucket holds a range of .5. So, 1.5 would go into index 2.
+			for(int j = 1; j < lines.get(i).length-1; j++){
+				double val = Double.parseDouble(lines.get(i)[j]);
+				booleanizedArray[((int)(val/.1))] = 1;
 			}
 			booleanizedArray[booleanizedArray.length-1] = Integer.parseInt(lines.get(i)[lines.get(i).length-1]);
 			booleanizedFile.add(booleanizedArray);
@@ -115,10 +127,72 @@ public class PreProcessTask {
 	}
 	
 	public void processIris(){
+		double[] slStats = {4.3, 7.9, 5.84, .83};
+		double[] swStats = {2.0,4.4,3.02,.43};
+		double[] plStats = {1.0, 6.9,3.76, 1.76};
+		double[] pwStats = {.1, 2.5, 1.20, .76};
 		for(int i = 0; i < lines.size(); i++){
-			int[] booleanizedArray = new int[(10*4)+1];
+			int[] booleanizedArray = new int[5];
 			for(int j = 0; j < lines.get(i).length-1; j++){
-				booleanizedArray[(int) (j*10 + Math.round(Double.parseDouble(lines.get(i)[j])))] = 1;
+				double val;
+				switch(j){
+				case 0:
+					val = Double.parseDouble(lines.get(i)[j]);
+					if(val >= slStats[2]+slStats[3]) {
+						booleanizedArray[j] = 1;
+					}else if(val <= slStats[2]-slStats[3]){
+						booleanizedArray[j] = 0;
+					}else{
+						if(val >= slStats[2]){
+							booleanizedArray[j] = 1;
+						}else{
+							booleanizedArray[j] = 0;
+						}
+					}
+					break;
+				case 1:
+					val = Double.parseDouble(lines.get(i)[j]);
+					if(val >= swStats[2]+swStats[3]) {
+						booleanizedArray[j] = 1;
+					}else if(val <= swStats[2]-swStats[3]){
+						booleanizedArray[j] = 0;
+					}else{
+						if(val >= swStats[2]){
+							booleanizedArray[j] = 1;
+						}else{
+							booleanizedArray[j] = 0;
+						}
+					}
+					break;
+				case 2:
+					val = Double.parseDouble(lines.get(i)[j]);
+					if(val >= plStats[2]+plStats[3]) {
+						booleanizedArray[j] = 1;
+					}else if(val <= plStats[2]-plStats[3]){
+						booleanizedArray[j] = 0;
+					}else{
+						if(val >= plStats[2]){
+							booleanizedArray[j] = 1;
+						}else{
+							booleanizedArray[j] = 0;
+						}
+					}
+					break;
+				case 3:
+					val = Double.parseDouble(lines.get(i)[j]);
+					if(val >= pwStats[2]+pwStats[3]) {
+						booleanizedArray[j] = 1;
+					}else if(val <= pwStats[2]-pwStats[3]){
+						booleanizedArray[j] = 0;
+					}else{
+						if(val >= pwStats[2]){
+							booleanizedArray[j] = 1;
+						}else{
+							booleanizedArray[j] = 0;
+						}
+					}
+					break;
+				}
 			}
 			if(lines.get(i)[lines.get(i).length-1].equalsIgnoreCase("Iris-setosa")){
 				booleanizedArray[booleanizedArray.length-1] = 1;
@@ -173,10 +247,10 @@ public class PreProcessTask {
 				if(lines.get(i)[lines.get(i).length-1].equalsIgnoreCase(lines.get(listIndex)[lines.get(i).length-1])){
 					if(!lines.get(i)[arrayIndex].equals("?")){
 						count++;
-						if(Integer.parseInt(lines.get(i)[arrayIndex]) >= 5){
+						if(Integer.parseInt(lines.get(i)[arrayIndex]) >= 4){
 							y++; //increment yes count
 							continue;
-						}else if(Integer.parseInt(lines.get(i)[arrayIndex]) < 5){
+						}else if(Integer.parseInt(lines.get(i)[arrayIndex]) < 4){
 							n++; //increment no count
 						}
 					}
