@@ -67,28 +67,38 @@ public class PreProcessTask {
 	
 	public void processBreastCancer(){
 		for(int i = 0; i < lines.size(); i++){
-			int[] booleanizedArray = new int[lines.get(i).length-1]; //ignoring patient ID
+			ArrayList<Integer> encodedData = new ArrayList<Integer>(); //ignoring patient ID
 			for(int j = 1; j < lines.get(i).length; j++){
+				int[] bArray;
 				if(!lines.get(i)[j].equalsIgnoreCase("?")){
 					if(j == lines.get(i).length-1){
 						if(Integer.parseInt(lines.get(i)[j]) == 4){
-							booleanizedArray[j-1] = 1; //Malignant
-							continue;
+							encodedData.add(1); //Malignant
+							break;
 						}else{
-							booleanizedArray[j-1] = 0; //benign
-							continue;
+							encodedData.add(0); //benign
+							break;
 						}
 					}
-					if(Integer.parseInt(lines.get(i)[j]) < 4){
-						booleanizedArray[j-1] = 0; //Bucket of values less than 5 is a zero based on cursory glance of data
-						continue;
-					}
-					booleanizedArray[j-1] = 1; //Anything greater than or equal to 5 is a flag.
+					bArray = new int[10];
+					int index = Integer.parseInt(lines.get(i)[j]);
+					bArray[index-1] = 1;
+					encodedData = fillArray(bArray, encodedData);
 				}else{
-					booleanizedArray[j-1] = imputateData(i,j);
+					bArray = new int[10];
+					int index = imputateData(i,j);
+					bArray[index-1] = 1;
+					encodedData = fillArray(bArray, encodedData);
 				}
 			}
-			booleanizedFile.add(booleanizedArray);
+			encodedData.trimToSize();
+			Integer[] encodedDataAsArray = new Integer[encodedData.size()];
+			int[] encodedDataAsArray1 = new int[encodedData.size()];
+			encodedDataAsArray = encodedData.toArray(encodedDataAsArray);
+			for(int j = 0; j < encodedDataAsArray1.length; j++){
+				encodedDataAsArray1[j] = encodedDataAsArray[j].intValue();
+			}
+			booleanizedFile.add(encodedDataAsArray1);
 		}
 	}
 	
@@ -124,28 +134,28 @@ public class PreProcessTask {
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 2){
-					bArray = new int[15];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-10)/.5));
+					bArray = new int[740];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-10)/.01));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 3){
-					bArray = new int[9];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.5));
+					bArray = new int[45];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 4){
-					bArray = new int[15];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.25)));
+					bArray = new int[36];
+					int index = (int)(Math.floor(((Double.parseDouble(lines.get(i)[j])-.29)/.1)));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 5){
-					bArray = new int[15];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-69)/.5));
+					bArray = new int[65];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-69)/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 6){
-					bArray = new int[13];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.5));
+					bArray = new int[63];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 7){
@@ -154,13 +164,13 @@ public class PreProcessTask {
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 8){
-					bArray = new int[22];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.15));
+					bArray = new int[316];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.01));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 9){
-					bArray = new int[18];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.03));
+					bArray = new int[52];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.01));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}
@@ -184,23 +194,23 @@ public class PreProcessTask {
 			for(int j = 0; j < lines.get(i).length-1; j++){
 				int[] bArray;
 				if(j == 0){
-					bArray = new int[40];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-4)/.1));
+					bArray = new int[400];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-4)/.01));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 1){
-					bArray = new int[25];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-2)/.1));
+					bArray = new int[250];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-2)/.01));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 2){
-					bArray = new int[60];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1)/.1));
+					bArray = new int[600];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1)/.01));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 3){
-					bArray = new int[26];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.1)));
+					bArray = new int[260];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.01)));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}
@@ -265,10 +275,10 @@ public class PreProcessTask {
 				if(lines.get(i)[lines.get(i).length-1].equalsIgnoreCase(lines.get(listIndex)[lines.get(i).length-1])){
 					if(!lines.get(i)[arrayIndex].equals("?")){
 						count++;
-						if(Integer.parseInt(lines.get(i)[arrayIndex]) >= 4){
+						if(Integer.parseInt(lines.get(i)[arrayIndex]) >= 5){
 							y++; //increment yes count
 							continue;
-						}else if(Integer.parseInt(lines.get(i)[arrayIndex]) < 4){
+						}else if(Integer.parseInt(lines.get(i)[arrayIndex]) < 5){
 							n++; //increment no count
 						}
 					}

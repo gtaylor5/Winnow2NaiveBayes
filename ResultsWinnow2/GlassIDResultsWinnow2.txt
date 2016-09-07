@@ -1,0 +1,498 @@
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 5
+Correct Class Number from Data: 5
+Correct Class from Data: Containers
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Containers
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Vehicle Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Vehicle Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 5
+Correct Class Number from Data: 5
+Correct Class from Data: Containers
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Containers
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 5
+Correct Class Number from Data: 5
+Correct Class from Data: Containers
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Containers
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Vehicle Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Vehicle Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Vehicle Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Vehicle Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Vehicle Windows Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Vehicle Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Vehicle Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Vehicle Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Vehicle Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 5
+Correct Class Number from Data: 5
+Correct Class from Data: Containers
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 7
+Correct Class Number from Data: 7
+Correct Class from Data: Headlamps
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Headlamps
+
+Data Set: GlassID
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Building Windows Non-Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Non-Float Processed
+
+Data Set: GlassID
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Building Windows Float Processed
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Building Windows Float Processed
+

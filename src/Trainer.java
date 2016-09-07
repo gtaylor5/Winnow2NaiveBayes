@@ -16,6 +16,7 @@ public class Trainer {
 	ArrayList<Integer> chosen = new ArrayList<Integer>();
 	PreProcessTask task;
 	double theta;
+	PrintWriter writer;
 	
 	public Trainer(PreProcessTask task){
 		this.booleanizedFile = task.booleanizedFile;
@@ -40,34 +41,37 @@ public class Trainer {
 		}
 	}
 	
-	public void test(){
+	public void test() throws FileNotFoundException{
+		String fileText = dataSetName + "ResultsWinnow2.txt";
+		writer = new PrintWriter(fileText);
 		for(int i = 0; i < testData.size(); i++){
 			for(int j = 0; j < classifiers.size(); j++){
 				int fcorrect = testData.get(i)[testData.get(i).length-1];
 				int factual = (int)(dot(classifiers.get(j), testData.get(i)));
 				int h = (factual >= theta) ? 1 : 0;
 				if(classNumbers.get(j) == fcorrect){
-					System.out.println("Data Set: "+dataSetName);
-					System.out.println("Class Number: " + classNumbers.get(j));
-					System.out.println("Correct Class Number from Data: " + fcorrect);
-					System.out.println("Correct Class from Data: " + task.classes.get(fcorrect));
+					writer.println("Data Set: "+dataSetName);
+					writer.println("Class Number: " + classNumbers.get(j));
+					writer.println("Correct Class Number from Data: " + fcorrect);
+					writer.println("Correct Class from Data: " + task.classes.get(fcorrect));
 					if(dataSetName == "BreastCancer"){
 						if(h == classNumbers.get(j)){
-							System.out.println("The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)));
-							System.out.println();
+							writer.println("The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)));
+							writer.println();
 							break;
 						}
 					}else if(dataSetName == "Iris" || dataSetName == "SoyBean" || dataSetName == "GlassID"|| dataSetName == "VoteCount"){
 						if(h == 1){
-							System.out.println("h(x) = " + h + " (true) for this class.\n"+"The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)) );
-							System.out.println();
+							writer.println("h(x) = " + h + " (true) for this class.\n"+"The algorithm correctly predicted: " +task.classes.get(classNumbers.get(j)));
+							writer.println();
 							break;
 						}
 					}
-					System.out.println();
+					writer.println();
 				}
 			}
 		}
+		writer.close();
 	}
 	
 	public void winnow2(ArrayList<int[]> dataSet, int classNum){
@@ -82,19 +86,14 @@ public class Trainer {
 			theta = 120;
 			alpha = 2;
 		}else if(dataSetName =="Iris"){
-			if(classNum == 3){
-				numIterations = 1000;
-			}else{
-				numIterations = 1000;
-			}
-			theta = 151;
+			numIterations = 1000;
+			theta = 75;
 			alpha = 2;
-			
 		}else if(dataSetName =="GlassID"){
 			if(classNum == 1 || classNum == 2){
-				numIterations = 3000;
+				numIterations = 100;
 			}
-			numIterations = 3000;
+			numIterations = 100;
 			theta = 134;
 			alpha = 2;
 			
@@ -105,7 +104,8 @@ public class Trainer {
 			alpha = 2;
 			
 		}else{
-			theta = 3;
+
+			theta = 4;
 			alpha = 2;
 			numIterations = 1000;
 		}
@@ -116,9 +116,17 @@ public class Trainer {
 		int sum = 0;
 		for(int j = 0; j < numIterations; j++){
 			for(int i = 0; i < dataSet.size(); i++){
-				int f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
+				int f_correct = 0;
+				//int f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
+				if(dataSetName != "BreastCancer"){
+					f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
+					if(f_correct == 0){
+						continue;
+					}
+				}else{
+					f_correct = classNum;
+				}
 				int f_actual = (int)(dot(weights, dataSet.get(i)));
-				//System.out.println(f_actual);
 				int h = (f_actual > theta) ? 1 : 0;
 				if(h == 1 && f_correct == 0){
 					weights = demotion(weights, dataSet.get(i), alpha);

@@ -1,0 +1,1020 @@
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+
+Data Set: VoteCount
+Class Number: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Republican
+
+Data Set: VoteCount
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Democrat
+

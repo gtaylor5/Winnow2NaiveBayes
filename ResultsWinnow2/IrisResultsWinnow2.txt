@@ -1,0 +1,343 @@
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-versicolor
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+
+Data Set: Iris
+Class Number: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-virginica
+
+Data Set: Iris
+Class Number: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+h(x) = 1 (true) for this class.
+The algorithm correctly predicted: Iris-setosa
+

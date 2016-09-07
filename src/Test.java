@@ -15,10 +15,10 @@ public class Test {
 	public static void main(String[] args) throws FileNotFoundException {
 		processData();
 		
-			Trainer myTrainer = new Trainer(tasks.get(0));
+			Trainer myTrainer = new Trainer(tasks.get(4));
 			try {
 				myTrainer.splitData();
-				for(int key : tasks.get(0).classes.keySet()){
+				for(int key : tasks.get(4).classes.keySet()){
 					myTrainer.winnow2(myTrainer.trainingData, key);
 				}
 			} catch (IOException e) {
