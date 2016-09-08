@@ -13,12 +13,12 @@ public class Test {
 	static ArrayList<PreProcessTask> tasks = new ArrayList<PreProcessTask>();
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		processData();
+			processData();
 		
-			Trainer myTrainer = new Trainer(tasks.get(4));
+			Trainer myTrainer = new Trainer(tasks.get(3));
 			try {
 				myTrainer.splitData();
-				for(int key : tasks.get(4).classes.keySet()){
+				for(int key : tasks.get(3).classes.keySet()){
 					myTrainer.winnow2(myTrainer.trainingData, key);
 				}
 			} catch (IOException e) {

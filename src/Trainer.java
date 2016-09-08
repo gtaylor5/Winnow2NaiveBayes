@@ -116,9 +116,7 @@ public class Trainer {
 		int sum = 0;
 		for(int j = 0; j < numIterations; j++){
 			for(int i = 0; i < dataSet.size(); i++){
-				int f_correct = 0;
 				int f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
-				/*
 				if(dataSetName != "BreastCancer"){
 					f_correct = (dataSet.get(i)[dataSet.get(i).length-1] == classNum) ? 1 : 0;
 					if(f_correct == 0){
@@ -127,7 +125,7 @@ public class Trainer {
 				}else{
 					f_correct = classNum;
 				}
-				*/
+
 				int f_actual = (int)(dot(weights, dataSet.get(i)));
 				int h = (f_actual > theta) ? 1 : 0;
 				if(h == 1 && f_correct == 0){
