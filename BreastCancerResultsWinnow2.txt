@@ -1,1403 +1,3516 @@
+The following is the classifier function for: Benign
+[32,16,32,32,16,32,0,0,0,0,32,32,16,32,0,0,0,16,32,0,8,32,16,0,0,0,0,16,0,0,8,8,0,0,32,4,0,0,32,0,0,16,0,8,0,0,32,8,1,0,32,32,32,0,8,0,32,0,0,0,32,4,8,0,0,0,0,0,0,0,0,32,8,0,0,0,2,8,1,0,0,0,0,0,0,1,2,0,1,1]
+
+The following is the classifier function for: Malignant
+[0,16,0,2,0,0,128,64,64,128,0,1,16,0,64,8,32,16,0,64,0,8,0,4,32,32,4,2,4,32,8,8,8,8,0,0,16,32,1,16,32,0,4,1,2,16,0,16,1,64,0,0,0,32,32,64,0,32,64,64,0,16,0,32,32,32,8,32,4,8,2,0,16,64,2,0,16,0,8,64,0,4,1,8,8,4,1,2,1,1]
+
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
+
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
-
-Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
-
-Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
-
-Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
-
-Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
-
-Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
-
-Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
-
-Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
-
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 1
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
 
 Data Set: BreastCancer
-Class Number: 1
+Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Malignant
-The algorithm correctly predicted: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
+
+Data Set: BreastCancer
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
+
+*****************************************
+Data Set: BreastCancer
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Benign which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Benign was incorrect.
+
+Data Set: BreastCancer
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Malignant
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Malignant was correct.
 
+*****************************************
 Data Set: BreastCancer
-Class Number: 0
+Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Benign which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Benign was correct.
 
 Data Set: BreastCancer
-Class Number: 0
+Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Benign
-The algorithm correctly predicted: Benign
+Winnow2 tested the classifier for Malignant which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Malignant was incorrect.
 
+*****************************************

@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -11,24 +12,33 @@ public class PreProcessTask {
 	String dataSetName = "";
 	HashMap<Integer, String> classes = new HashMap<Integer, String>();
 	int numClasses = 0;
+	int[] classSizes;
 	
 	public PreProcessTask(String name){
 		this.dataSetName = name;
 	}
 	
+	//parses file and stores in space separated array then added to arraylist.
+	
 	public void storeFileInArray(String fileLocation) throws FileNotFoundException{
 		File file = new File(fileLocation);
 		file.setReadable(true);
 		Scanner input = new Scanner(file);
-		
 		while(input.hasNextLine()){
 			String line = input.nextLine();
 			String[] lineAsArray = line.split(",");
 			lines.add(lineAsArray);
 		}
 		lines.trimToSize();
+		input.close();
 	}
+	/************************************************************
 	
+	booleanizeData() converts comma separated data into boolean 
+	data based on the input dataSet name. It also stores the classes
+	in a hashmap.
+	
+	************************************************************/
 	public void booleanizeData(){
 		if(dataSetName == "VoteCount"){
 			processVoteCount();
@@ -43,6 +53,7 @@ public class PreProcessTask {
 		}else if(dataSetName.equalsIgnoreCase("GlassID")){
 			processGlassID();
 			numClasses = 6;
+			classSizes = new int[]{70,76,17,13,9,29};
 			classes.put(1, "Building Windows Float Processed");
 			classes.put(2, "Building Windows Non-Float Processed");
 			classes.put(3, "Vehicle Windows Float Processed");
@@ -64,11 +75,18 @@ public class PreProcessTask {
 			classes.put(4, "Phytophthora Rot");
 		}
 	}
+	/************************************************************
+	
+	processBreastCancer places corresponding values into buckets.
+	Which ever integer value is shown gets stored in value-1 elemtn
+	in the array. Malignant = 1 and benign = 0
+	
+	************************************************************/
 	
 	public void processBreastCancer(){
 		for(int i = 0; i < lines.size(); i++){
-			ArrayList<Integer> encodedData = new ArrayList<Integer>(); //ignoring patient ID
-			for(int j = 1; j < lines.get(i).length; j++){
+			ArrayList<Integer> encodedData = new ArrayList<Integer>(); 
+			for(int j = 1; j < lines.get(i).length; j++){//ignoring patient ID-
 				int[] bArray;
 				if(!lines.get(i)[j].equalsIgnoreCase("?")){
 					if(j == lines.get(i).length-1){
@@ -99,9 +117,17 @@ public class PreProcessTask {
 				encodedDataAsArray1[j] = encodedDataAsArray[j].intValue();
 			}
 			booleanizedFile.add(encodedDataAsArray1);
+			Collections.shuffle(booleanizedFile);
 		}
 	}
 	
+	
+	/************************************************************
+	
+	processVoteCount processes the voting dataset. It imputates
+	data accordingly. republican = 0, democrat = 1
+	
+	************************************************************/	
 	public void processVoteCount(){
 		for(int i = 0; i < lines.size(); i++){
 			int[] booleanizedArray = new int[lines.get(i).length];
@@ -121,7 +147,17 @@ public class PreProcessTask {
 			}
 			booleanizedFile.add(booleanizedArray);
 		}
+		Collections.shuffle(booleanizedFile);
 	}
+	
+	/************************************************************
+	
+	processGlassID processes all of the data and places it into buckets
+	that fit the corresponding value range. It was difficult to fit the
+	buckets. Once a proper bucket scheme is found, the error in the 
+	winnow2 and naivebayes algos would decrease.
+	
+	************************************************************/	
 
 	public void processGlassID(){ //Glass has no missing values. No need to imputate.
 		for(int i = 0; i < lines.size(); i++){
@@ -130,47 +166,47 @@ public class PreProcessTask {
 				int[] bArray;
 				if(j == 1){
 					bArray = new int[4];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1.5)*100));
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j])-1.5112)*100));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 2){
-					bArray = new int[740];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-10)/.01));
+					bArray = new int[8];
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j])-10.73)));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 3){
-					bArray = new int[45];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.1));
+					bArray = new int[5];
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j]))));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 4){
-					bArray = new int[36];
-					int index = (int)(Math.floor(((Double.parseDouble(lines.get(i)[j])-.29)/.1)));
+					bArray = new int[5];
+					int index = (int)(Math.round(((Double.parseDouble(lines.get(i)[j])-.29))));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 5){
-					bArray = new int[65];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-69)/.1));
+					bArray = new int[57];
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j])-69.81)/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 6){
-					bArray = new int[63];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.1));
+					bArray = new int[7];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 7){
-					bArray = new int[23];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-5)/.5));
+					bArray = new int[13];
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j])-5.43)));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 8){
-					bArray = new int[316];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.01));
+					bArray = new int[4];
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j]))));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 9){
 					bArray = new int[52];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j]))/.01));
+					int index = (int)(Math.round((Double.parseDouble(lines.get(i)[j])/.01)));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}
@@ -185,7 +221,16 @@ public class PreProcessTask {
 			}
 			booleanizedFile.add(encodedDataAsArray1);
 		}
+		Collections.shuffle(booleanizedFile);
 	}
+	
+	/************************************************************
+	
+	processIris uses a similar scheme to the GlassID method above.
+	However, the buckets are more correct because there is less
+	correlation between the classes.
+	
+	************************************************************/	
 	
 	public void processIris(){
 			
@@ -194,23 +239,23 @@ public class PreProcessTask {
 			for(int j = 0; j < lines.get(i).length-1; j++){
 				int[] bArray;
 				if(j == 0){
-					bArray = new int[400];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-4)/.01));
+					bArray = new int[40];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-4)/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 1){
-					bArray = new int[250];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-2)/.01));
+					bArray = new int[25];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-2)/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if(j == 2){
-					bArray = new int[600];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1)/.01));
+					bArray = new int[60];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])-1)/.1));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}else if (j == 3){
-					bArray = new int[260];
-					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.01)));
+					bArray = new int[26];
+					int index = (int)(Math.floor((Double.parseDouble(lines.get(i)[j])/.1)));
 					bArray[index] = 1;
 					encodedData = fillArray(bArray, encodedData);
 				}
@@ -231,7 +276,17 @@ public class PreProcessTask {
 			}
 			booleanizedFile.add(encodedDataAsArray1);
 		}
+		Collections.shuffle(booleanizedFile);
 	}
+	
+	/************************************************************
+	
+	processSoyBean stores all of the data for the soybean data.
+	the booleanized array is the the max value per attribute(6) 
+	plus 1 times 35 attributes and add 1 for the class value.
+	
+	************************************************************/
+	
 	
 	public void processSoyBean(){
 		for(int i = 0; i < lines.size(); i++){
@@ -250,7 +305,16 @@ public class PreProcessTask {
 			}
 			booleanizedFile.add(booleanizedArray);
 		}
+		Collections.shuffle(booleanizedFile);
 	}
+	
+	/************************************************************
+	
+	imputateData fills missing data while maintaining the overall
+	probability.
+	
+	************************************************************/
+	
 	
 	public int imputateData(int listIndex, int arrayIndex){
 		if(dataSetName == "VoteCount"){

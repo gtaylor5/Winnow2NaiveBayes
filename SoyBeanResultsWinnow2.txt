@@ -1,0 +1,476 @@
+The following is the classifier function for: Diaporthe Stem Canker
+[0,1,1,2,2,2,2,16,0,1,1,1,1,1,1,0,16,1,1,1,1,1,8,1,1,1,1,1,4,2,1,1,1,1,1,1,2,4,1,1,1,1,4,2,1,1,1,1,1,1,8,1,1,1,1,1,4,2,1,1,1,1,1,2,2,2,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,8,1,1,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,0,1,16,1,1,1,2,8,0,1,1,1,1,0,16,1,1,1,1,1,0,16,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,16,1,1,0,1,1,1,1,1,1,1,8,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,16,0,1,1,1,1,1]
+
+The following is the classifier function for: Charcoal Rot
+[1,0,1,1,1,4,4,16,0,1,1,1,1,1,16,1,0,1,1,1,1,1,1,8,1,1,1,1,2,4,1,1,1,1,1,2,1,1,4,1,1,1,1,1,8,1,1,1,1,1,8,1,1,1,1,1,8,1,1,1,1,1,1,4,0,4,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,8,1,1,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,1,8,1,1,1,1,1,2,4,1,1,1,1,1,16,1,0,1,1,1,1,1,1,0,16,1,1,1,8,1,1,1,1,1,1,16,0,1,1,1,1,1,8,1,1,1,1,1,1,0,1,16,1,1,1,1,0,16,1,1,1,1,1,16,1,1,0,1,1,1,1,1,1,1,8,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,16,0,1,1,1,1,1]
+
+The following is the classifier function for: Rhizoctonia Root Rot
+[1,1,4,1,4,0,0,2,2,1,1,1,1,1,0,1,8,1,1,1,1,32,0,0,1,1,1,1,1,4,1,1,1,1,1,4,1,0,2,1,1,1,0,16,0,1,1,1,1,1,0,16,1,1,1,1,8,0,1,1,1,1,1,0,4,2,1,1,1,1,1,4,1,1,1,1,1,16,0,1,1,1,1,1,4,1,1,1,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,1,4,1,1,1,1,1,0,8,1,1,1,1,1,0,32,0,0,1,1,1,1,32,0,0,1,1,1,8,0,1,1,1,1,1,0,16,1,1,1,1,1,0,16,1,1,1,1,1,8,1,0,1,1,1,1,8,0,1,1,1,1,1,0,1,1,16,1,1,1,1,1,1,1,4,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,4,1,1,1,1,1,1,16,0,1,1,1,1,1]
+
+The following is the classifier function for: Phytophthora Rot
+[4,1,1,4,1,1,0,0,16,1,1,1,1,1,1,1,8,1,1,1,1,2,4,1,1,1,1,1,2,4,1,1,1,1,1,1,4,2,1,1,1,1,1,8,1,1,1,1,1,1,2,4,1,1,1,1,2,4,1,1,1,1,1,2,1,4,1,1,1,1,1,8,1,1,1,1,1,0,16,1,1,1,1,1,8,1,1,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,1,8,1,1,1,1,1,16,0,1,1,1,1,1,1,4,4,0,1,1,1,1,0,32,1,1,1,1,16,0,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,0,1,1,16,1,1,1,1,1,1,1,8,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,8,1,1,1,1,1,1,0,32,1,1,1,1,1]
+
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Charcoal Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was correct.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Charcoal Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 2
+Correct Class from Data: Charcoal Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 4
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 4
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 4
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 4
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 4
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 4
+Correct Class Number from Data: 4
+Correct Class from Data: Phytophthora Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Phytophthora Rot was correct.
+
+*****************************************
+Data Set: SoyBean
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was correct.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 1
+Correct Class from Data: Diaporthe Stem Canker
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
+Data Set: SoyBean
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Diaporthe Stem Canker which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Diaporthe Stem Canker was incorrect.
+
+Data Set: SoyBean
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Charcoal Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Charcoal Rot was incorrect.
+
+Data Set: SoyBean
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Rhizoctonia Root Rot which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Rhizoctonia Root Rot was correct.
+
+Data Set: SoyBean
+Current class number being tested: 4
+Correct Class Number from Data: 3
+Correct Class from Data: Rhizoctonia Root Rot
+Winnow2 tested the classifier for Phytophthora Rot which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Phytophthora Rot was incorrect.
+
+*****************************************
