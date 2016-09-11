@@ -31,7 +31,7 @@ public class WinnowTrainer {
 		this.numClasses = task.numClasses;
 		this.dataSetName = task.dataSetName;
 		this.task = task;
-	}
+	} 
 	
 	/************************************************************
 	
