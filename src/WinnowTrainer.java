@@ -342,7 +342,7 @@ public class WinnowTrainer {
 	************************************************************/
 	
 	public double[] promotion(double[] weights, int[] values, double alpha){
-		
+		 
 		double[] temp = weights;
 		
 		for(int i = 0; i < temp.length-1; i++){
