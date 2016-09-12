@@ -121,6 +121,7 @@ public class WinnowTrainer {
 				booleanizedFile.remove(randomIndex);
 				booleanizedFile.trimToSize();
 			}
+			Collections.shuffle(trainingData);
 			return;
 		}
 		while((testData.size() + trainingData.size())!=originalSize){
@@ -165,11 +166,13 @@ public class WinnowTrainer {
 	The remainder of the method simply prints if the algorithm
 	correctly predicted the correct outcome based on the combinations
 	of fcorrect and h.
+	 * @throws IOException 
 	
 	************************************************************/
 	
-	public void testWinnow2() throws FileNotFoundException{
+	public void testWinnow2() throws IOException{
 		String fileText = dataSetName + "ResultsWinnow2.txt";
+		PrintWriter resultsWriter = new PrintWriter(new FileWriter(Main.results,true)); 
 		writer = new PrintWriter(fileText);
 		for(int i = 0; i < classifiers.size(); i++){
 			writer.println("The following is the classifier function for: " + task.classes.get(classNumbers.get(i)));
@@ -185,15 +188,15 @@ public class WinnowTrainer {
 			}
 			writer.println();
 		}
+		double count = 0;
+		double totalCount = 0;
+		
 		for(int i = 0; i < testData.size(); i++){
 			for(int j = 0; j < classifiers.size(); j++){
 				int fcorrect = (testData.get(i)[testData.get(i).length-1] == classNumbers.get(j)) ? 1 : 0;
 				int factual = (int)(dot(classifiers.get(j), testData.get(i)));
 				int h = (factual > theta) ? 1 : 0;
-				if(dataSetName.equalsIgnoreCase("GlassID")){
-					writer.println(factual);
-					writer.println(theta);
-				}
+				
 				if(h == fcorrect && fcorrect == 1){
 					writer.println("Data Set: "+dataSetName);
 					writer.println("Class Number being tested: " + classNumbers.get(j));
@@ -204,6 +207,8 @@ public class WinnowTrainer {
 					writer.println("Since the current class and the correct class match, "
 							+ "fcorrect = 1. Therefore, the algorithm correctly predicted that "+task.classes.get(classNumbers.get(j))+ " was correct.");
 					writer.println();
+					count++;
+					totalCount++;
 				}else if(h == fcorrect && fcorrect == 0){
 					writer.println("Data Set: "+dataSetName);
 					writer.println("Current class number being tested: " + classNumbers.get(j));
@@ -214,6 +219,8 @@ public class WinnowTrainer {
 					writer.println("Since the current class and the correct class do not match, "
 							+ "fcorrect = 0. Therefore, the algorithm correctly predicted that "+ task.classes.get(classNumbers.get(j))+ " was incorrect.");
 					writer.println();
+					//count++;
+					//totalCount++;
 				}else if(h == 1 && fcorrect == 0){
 					writer.println("Data Set: "+dataSetName);
 					writer.println("Current class number being tested: " + classNumbers.get(j));
@@ -224,6 +231,7 @@ public class WinnowTrainer {
 					writer.println("Since the current class and the correct class do not match, "
 							+ "fcorrect = 0. Therefore, the algorithm incorrectly predicted that "+task.classes.get(classNumbers.get(j))+ " was correct.");
 					writer.println();
+					totalCount++;
 				}else if(h == 0 && fcorrect == 1){
 					writer.println("Data Set: "+dataSetName);
 					writer.println("Current class number being tested: " + classNumbers.get(j));
@@ -234,6 +242,7 @@ public class WinnowTrainer {
 					writer.println("Since the current class and the correct class match, "
 							+ "fcorrect = 1. Therefore, the algorithm incorrectly predicted that "+task.classes.get(classNumbers.get(j))+ " was incorrect.");
 					writer.println();
+					totalCount++;
 				}
 				
 				if(j == classifiers.size()-1){
@@ -241,7 +250,11 @@ public class WinnowTrainer {
 				}
 			}
 		}
+		resultsWriter.printf("%s%s : %.2f%s","Winnow-2 ",dataSetName, (count/totalCount)*100," %");
+		resultsWriter.println();
+		resultsWriter.println();
 		writer.close();
+		resultsWriter.close();
 	}
 	
 	/************************************************************

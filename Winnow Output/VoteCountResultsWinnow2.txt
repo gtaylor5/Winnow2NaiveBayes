@@ -1,9 +1,69 @@
 The following is the classifier function for: Republican
-[0,0,0,16,0,0,1,0,0,4,0,4,0,4,0,1]
+[0,0,0,16,2,0,1,0,0,0,0,2,0,0,0,1]
 
 The following is the classifier function for: Democrat
-[0,4,16,0,0,4,2,1,8,0,16,0,0,0,16,1]
+[2,0,16,0,0,0,1,4,8,0,8,0,0,0,1,1]
 
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
 Data Set: VoteCount
 Class Number being tested: 0
 Correct Class Number from Data: 0
@@ -30,8 +90,1148 @@ Data Set: VoteCount
 Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -135,8 +1335,53 @@ Data Set: VoteCount
 Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -200,18 +1445,18 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 
 *****************************************
 Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
 
 Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -240,98 +1485,8 @@ Data Set: VoteCount
 Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -380,6 +1535,21 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 
 *****************************************
 Data Set: VoteCount
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
 Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Democrat
@@ -422,6 +1592,21 @@ Correct Class Number from Data: 0
 Correct Class from Data: Republican
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
 
 *****************************************
 Data Set: VoteCount
@@ -485,36 +1670,6 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 
 *****************************************
 Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
 Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
@@ -570,83 +1725,8 @@ Data Set: VoteCount
 Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
 
 *****************************************
 Data Set: VoteCount
@@ -662,81 +1742,6 @@ Correct Class Number from Data: 0
 Correct Class from Data: Republican
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
 
 *****************************************
 Data Set: VoteCount
@@ -800,18 +1805,18 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 
 *****************************************
 Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
+Class Number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
 
 Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -845,141 +1850,6 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 
 *****************************************
 Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
 Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
@@ -992,51 +1862,6 @@ Correct Class Number from Data: 0
 Correct Class from Data: Republican
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
 
 *****************************************
 Data Set: VoteCount
@@ -1115,126 +1940,6 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 
 *****************************************
 Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
 Class Number being tested: 0
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
@@ -1251,6 +1956,21 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 *****************************************
 Data Set: VoteCount
 Current class number being tested: 0
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Republican was incorrect.
+
+Data Set: VoteCount
+Current class number being tested: 1
+Correct Class Number from Data: 0
+Correct Class from Data: Republican
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+
+*****************************************
+Data Set: VoteCount
+Current class number being tested: 0
 Correct Class Number from Data: 1
 Correct Class from Data: Democrat
 Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
@@ -1275,8 +1995,8 @@ Data Set: VoteCount
 Current class number being tested: 1
 Correct Class Number from Data: 0
 Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -1285,96 +2005,6 @@ Correct Class Number from Data: 1
 Correct Class from Data: Democrat
 Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
 
 Data Set: VoteCount
 Class Number being tested: 1
@@ -1445,18 +2075,18 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 
 *****************************************
 Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
 
 Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
 
 *****************************************
 Data Set: VoteCount
@@ -1475,18 +2105,18 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 
 *****************************************
 Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
+Current class number being tested: 0
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
+Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
 
 Data Set: VoteCount
 Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
+Correct Class Number from Data: 1
+Correct Class from Data: Democrat
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Democrat was incorrect.
 
 *****************************************
 Data Set: VoteCount
@@ -1562,635 +2192,5 @@ Correct Class Number from Data: 1
 Correct Class from Data: Democrat
 Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
 Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Republican was correct.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
-
-*****************************************
-Data Set: VoteCount
-Current class number being tested: 0
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Republican which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Republican was incorrect.
-
-Data Set: VoteCount
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Democrat
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Democrat was correct.
-
-*****************************************
-Data Set: VoteCount
-Class Number being tested: 0
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Republican which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Republican was correct.
-
-Data Set: VoteCount
-Current class number being tested: 1
-Correct Class Number from Data: 0
-Correct Class from Data: Republican
-Winnow2 tested the classifier for Democrat which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Democrat was incorrect.
 
 *****************************************

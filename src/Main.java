@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 
 public class Main {
@@ -6,8 +7,9 @@ public class Main {
 	Main method to run the whole program.
 	
 	************************************************************/
-	
+	static File results;
 	public static void main(String[] args) throws IOException {
+		results = new File("Results.txt");
 		DataProcessor processor = new DataProcessor();
 		processor.processData();
 		for(int i = 0; i < processor.dataSets.length; i++){

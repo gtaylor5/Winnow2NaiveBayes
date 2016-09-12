@@ -1,12 +1,56 @@
 The following is the classifier function for: Iris-setosa
-[1,1,16,1,2,2,1,2,1,4,128,1,8,1,32,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,16,4,8,8,1,8,2,8,8,1,2,1,1,1,2,1,16,1,128,1,256,32,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,128,256,1,128,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+[1,1,4,1,1,2,1,8,1,16,128,1,2,1,16,4,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,32,8,4,2,1,8,2,16,8,1,2,1,2,1,2,2,8,1,64,1,128,64,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,256,256,1,128,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 
 The following is the classifier function for: Iris-versicolor
-[1,1,1,1,1,1,1,1,1,0,4,1,1,1,2,64,1,64,1,8,32,1,8,1,2,2,1,64,1,1,2,1,0,1,1,1,1,1,1,1,1,1,8,16,1,16,0,0,32,1,32,16,64,64,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,8,1,1,2,8,2,4,1,64,1,4,1,32,64,1,128,1,64,16,1,0,1,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,256,256,1,64,1,128,64,64,2,1,0,1,0,0,1,1]
+[1,1,1,1,1,1,1,1,1,0,8,1,4,1,2,128,1,32,1,16,16,1,2,1,8,32,1,128,1,1,1,1,0,1,1,1,1,1,1,1,2,1,0,16,1,16,0,16,128,1,16,4,0,16,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4,1,4,1,1,8,1,4,16,1,64,1,128,1,32,128,1,32,1,128,16,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,256,128,1,128,1,64,128,8,0,1,1,0,1,1,1,1]
 
 The following is the classifier function for: Iris-virginica
-[1,1,1,1,1,1,1,1,1,128,1,1,1,1,1,4,1,0,1,0,16,1,32,1,8,8,1,1,1,32,1,1,128,1,2,4,1,16,1,1,1,1,1,1,1,64,16,128,2,1,32,16,16,8,1,1,8,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,16,1,0,1,4,64,1,4,1,32,256,1,256,1,2,64,1,2,1,1,4,1,2,1,4,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,0,2,2,128,1,128,256,256,32,1,1]
+[1,1,1,1,1,1,1,1,1,128,1,1,1,1,0,1,1,32,1,2,2,1,32,1,0,32,1,4,1,16,1,1,128,1,1,8,1,16,1,1,1,1,64,1,1,32,8,16,4,1,16,8,64,4,1,1,8,8,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,8,1,2,1,0,128,1,128,1,4,256,1,128,1,2,32,1,2,1,1,8,1,8,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,2,1,32,0,4,256,1,64,128,256,64,1,1]
 
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
 Data Set: Iris
 Current class number being tested: 1
 Correct Class Number from Data: 2
@@ -47,6 +91,314 @@ Data Set: Iris
 Current class number being tested: 3
 Correct Class Number from Data: 2
 Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
 Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
 
@@ -96,28 +448,6 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 
 *****************************************
 Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
 Current class number being tested: 1
 Correct Class Number from Data: 2
 Correct Class from Data: Iris-versicolor
@@ -206,6 +536,50 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 
 *****************************************
 Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
 Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Iris-setosa
@@ -269,6 +643,28 @@ Correct Class Number from Data: 1
 Correct Class from Data: Iris-setosa
 Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
 
 *****************************************
 Data Set: Iris
@@ -339,138 +735,6 @@ Since the current class and the correct class match, fcorrect = 1. Therefore, th
 *****************************************
 Data Set: Iris
 Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Class Number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Class Number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
 Correct Class Number from Data: 3
 Correct Class from Data: Iris-virginica
 Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
@@ -509,424 +773,6 @@ Data Set: Iris
 Current class number being tested: 3
 Correct Class Number from Data: 1
 Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Class Number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Class Number being tested: 1
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 1
-Correct Class from Data: Iris-setosa
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Class Number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Class Number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Class Number being tested: 3
-Correct Class Number from Data: 3
-Correct Class from Data: Iris-virginica
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Class Number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
-
-*****************************************
-Data Set: Iris
-Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
-
-Data Set: Iris
-Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
-
-Data Set: Iris
-Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
 Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
 
@@ -993,6 +839,116 @@ Data Set: Iris
 Current class number being tested: 3
 Correct Class Number from Data: 1
 Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
 Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
 
@@ -1064,6 +1020,28 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 
 *****************************************
 Data Set: Iris
+Current class number being tested: 1
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
+
+Data Set: Iris
+Class Number being tested: 2
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-versicolor was correct.
+
+Data Set: Iris
+Current class number being tested: 3
+Correct Class Number from Data: 2
+Correct Class from Data: Iris-versicolor
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
+
+*****************************************
+Data Set: Iris
 Class Number being tested: 1
 Correct Class Number from Data: 1
 Correct Class from Data: Iris-setosa
@@ -1109,23 +1087,45 @@ Since the current class and the correct class do not match, fcorrect = 0. Theref
 *****************************************
 Data Set: Iris
 Current class number being tested: 1
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
 Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 0.
 Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-setosa was incorrect.
 
 Data Set: Iris
 Current class number being tested: 2
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
 Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
-Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm incorrectly predicted that Iris-versicolor was incorrect.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
+
+Data Set: Iris
+Class Number being tested: 3
+Correct Class Number from Data: 3
+Correct Class from Data: Iris-virginica
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-virginica was correct.
+
+*****************************************
+Data Set: Iris
+Class Number being tested: 1
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-setosa which resulted in h(x) = 1.
+Since the current class and the correct class match, fcorrect = 1. Therefore, the algorithm correctly predicted that Iris-setosa was correct.
+
+Data Set: Iris
+Current class number being tested: 2
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-versicolor which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-versicolor was incorrect.
 
 Data Set: Iris
 Current class number being tested: 3
-Correct Class Number from Data: 2
-Correct Class from Data: Iris-versicolor
-Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 1.
-Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm incorrectly predicted that Iris-virginica was correct.
+Correct Class Number from Data: 1
+Correct Class from Data: Iris-setosa
+Winnow2 tested the classifier for Iris-virginica which resulted in h(x) = 0.
+Since the current class and the correct class do not match, fcorrect = 0. Therefore, the algorithm correctly predicted that Iris-virginica was incorrect.
 
 *****************************************

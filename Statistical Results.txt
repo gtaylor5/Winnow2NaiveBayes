@@ -1,0 +1,15 @@
+Bayes SoyBean : 93.75 %
+Winnow-2 SoyBean : 93.75 %
+
+Bayes Iris : 94.12 %
+Winnow-2 Iris : 83.33 %
+
+Bayes GlassID : 46.38 %
+Winnow-2 GlassID : 29.91 %
+
+Bayes BreastCancer : 97.86 %
+Winnow-2 BreastCancer : 90.57 %
+
+Bayes VoteCount : 91.10 %
+Winnow-2 VoteCount : 84.57 %
+

@@ -1,4 +1,6 @@
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -43,11 +45,13 @@ public class BayesTrainer {
 	/************************************************************
 	
 	method tests naive bayes algorithm.
+	 * @throws IOException 
 	
 	************************************************************/
 	
-	public void testNaiveBayes(ArrayList<int[]> testSet) throws FileNotFoundException{
+	public void testNaiveBayes(ArrayList<int[]> testSet) throws IOException{
 		PrintWriter writer = new PrintWriter(dataSetName+"Bayes.txt");
+		PrintWriter resultsWriter = new PrintWriter(new FileWriter(Main.results, true)); 
 		ArrayList<Double> values = new ArrayList<Double>();
 		for(int i = 0; i < classifications.size(); i++){
 			writer.println("Classification function for: "+task.classes.get(classNumbers.get(i)));
@@ -57,6 +61,8 @@ public class BayesTrainer {
 			writer.println();
 			writer.println();
 		}
+		double count = 0;
+		double totalCount = 0;
 		for(int i = 0; i < testSet.size(); i++){
 			double max = Double.MIN_VALUE;
 			int maxIndex = 0;
@@ -76,11 +82,18 @@ public class BayesTrainer {
 			}
 			if(classNumbers.get(maxIndex) == testSet.get(i)[testSet.get(i).length-1]){
 				writer.println("CORRECT: "+task.classes.get(classNumbers.get(maxIndex)) + " = " + task.classes.get(testSet.get(i)[testSet.get(i).length-1]));
+				count++;
+				totalCount++;
 			}else{
 				writer.println("INCORRECT: "+task.classes.get(classNumbers.get(maxIndex)) + " != " + task.classes.get(testSet.get(i)[testSet.get(i).length-1]));
+				totalCount++;
 			}
 		}
+		
+		resultsWriter.printf("%s%s : %.2f%s","Bayes ",dataSetName, (count/totalCount)*100," %");
+		resultsWriter.println();
 		writer.close();
+		resultsWriter.close();
 	}
 }
 
