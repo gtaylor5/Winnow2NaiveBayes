@@ -96,5 +96,5 @@ public class BayesTrainer {
 		resultsWriter.close();
 	}
 }
-
+ 
 
