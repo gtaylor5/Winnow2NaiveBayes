@@ -74,7 +74,7 @@ public class BayesTrainer {
 					}else{
 						value*= (1.0-classifications.get(j).attributeProbabilities[k]);
 					}
-				}
+				} 
 				if(value >= max){
 					max = value;
 					maxIndex = j;
